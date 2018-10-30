@@ -1,4 +1,4 @@
-install.packages(
+install.packages(c(
   "fPortfolio",
   "quantmod",
   "PerformanceAnalytics",
@@ -65,7 +65,7 @@ install.packages(
   "ipred",
   "ROCR",
   "lubridate",
-  "feather"
+  "feather")
 )
 devtools::install_github("soerenkuenzel/causalToolbox", 
                          auth_token = "aa0ad95703c119244a0ff7d9661d3ec5592e3bb1")
