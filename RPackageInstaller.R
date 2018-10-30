@@ -69,7 +69,9 @@ cran_package_names <- c("fPortfolio",
                         "lubridate",
                         "feather")
 
-sapply(cran_package_names, install.packages)
+
+
+sapply(cran_package_names, function(pkg) tryCatch(install.packages(pkg)))
 
 
 devtools::install_github("soerenkuenzel/causalToolbox", 
