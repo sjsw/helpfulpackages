@@ -1,72 +1,71 @@
-install.packages(c(
-  "fPortfolio",
-  "quantmod",
-  "PerformanceAnalytics",
-  "randomForest",
-  "ranger",
-  "data.table",
-  "magrittr",
-  "here",
-  "tidyverse",
-  "reshape2",
-  "ggplot2",
-  "future",
-  "foreach",
-  "doParallel",
-  "doSNOW",
-  "RhpcBLASctl",
-  "parallel",
-  "plyr",
-  "MASS",
-  "rBayesianOptimization",
-  "dbarts",
-  "BayesTree",
-  "Rcpp",
-  "Methods",
-  "Matching",
-  "quickmatch",
-  "Distances",
-  "Metrics",
-  "xgboost",
-  "rJava",
-  "nnet",
-  "caTools",
-  "pamr",
-  "rpart",
-  "earth",
-  "gbm",
-  "e1071",
-  "C50",
-  "party",
-  "caret",
-  "mboost",
-  "glmnet",
-  "bartMachine",
-  "TTR",
-  "Corrplot",
-  "FSelector",
-  "rJava",
-  "mgcv",
-  "kLar",
-  "kernlab",
-  "stepPlr",
-  "mda",
-  "fst",
-  "rio",
-  "h2o",
-  "mlr",
-  "devtools",
-  "plotly",
-  "gridExtra",
-  "optimization",
-  "roptim",
-  "ggsci",
-  "superheat",
-  "ipred",
-  "ROCR",
-  "lubridate",
-  "feather")
-)
+install.packages("fPortfolio")
+install.packages("quantmod")
+install.packages("PerformanceAnalytics")
+install.packages("randomForest")
+install.packages("ranger")
+install.packages("data.table")
+install.packages("magrittr")
+install.packages("here")
+install.packages("tidyverse")
+install.packages("reshape2")
+install.packages("ggplot2")
+install.packages("future")
+install.packages("foreach")
+install.packages("doParallel")
+install.packages("doSNOW")
+install.packages("RhpcBLASctl")
+install.packages("parallel")
+install.packages("plyr")
+install.packages("MASS")
+install.packages("rBayesianOptimization")
+install.packages("dbarts")
+install.packages("BayesTree")
+install.packages("Rcpp")
+install.packages("Methods")
+install.packages("Matching")
+install.packages("quickmatch")
+install.packages("Distances")
+install.packages("Metrics")
+install.packages("xgboost")
+install.packages("rJava")
+install.packages("nnet")
+install.packages("caTools")
+install.packages("pamr")
+install.packages("rpart")
+install.packages("earth")
+install.packages("gbm")
+install.packages("e1071")
+install.packages("C50")
+install.packages("party")
+install.packages("caret")
+install.packages("mboost")
+install.packages("glmnet")
+install.packages("bartMachine")
+install.packages("TTR")
+install.packages("Corrplot")
+install.packages("FSelector")
+install.packages("rJava")
+install.packages("mgcv")
+install.packages("kLar")
+install.packages("kernlab")
+install.packages("stepPlr")
+install.packages("mda")
+install.packages("fst")
+install.packages("rio")
+install.packages("h2o")
+install.packages("mlr")
+install.packages("devtools")
+install.packages("plotly")
+install.packages("gridExtra")
+install.packages("optimization")
+install.packages("roptim")
+install.packages("ggsci")
+install.packages("superheat")
+install.packages("ipred")
+install.packages("ROCR")
+install.packages("lubridate")
+install.packages("feather")
+
 devtools::install_github("soerenkuenzel/causalToolbox", 
                          auth_token = "aa0ad95703c119244a0ff7d9661d3ec5592e3bb1")
 devtools::install_github("soerenkuenzel/forestry")
