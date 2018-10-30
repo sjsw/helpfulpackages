@@ -1,5 +1,5 @@
 install.packages("devtools")
-devtools::install_github("hadley/rvest")
+if(!require(rvest)) devtools::install_github("hadley/rvest")
 
 cran_package_names <- c("fPortfolio",
                         "quantmod",
